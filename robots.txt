@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://fszewczyk.github.io//sitemap.xml
+Sitemap: https://fszewczyk.github.io/sitemap.xml
