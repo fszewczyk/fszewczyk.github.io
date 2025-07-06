@@ -13,6 +13,10 @@ profile:
     <p>Based in Vienna, Austria</p>
     <p>Often in Poland and Italy</p>
 
+mermaid:
+  enabled: true
+  zoomable: false
+
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -27,9 +31,25 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I like building stuff, particularly fast, low-power computer vision systems. I like to bring modern ML methods to life in real-time systems. Currently, I am working on Snapchat Spectacles where I make sure that our SLAM system is accurate
+I like building all kinds of stuff, but I mostly focus on fast, low-power computer vision systems. I like to bring modern ML methods to life in real-time applications. Currently, I am working on Snapchat Spectacles where I make sure that our SLAM system is accurate
 and highly optimized.
 
 In free time, I work on my own game engine.
 
 Feel free to talk to me at: `{lastname}.{firstname}02 at gmail.com`
+
+<!--
+```mermaid
+gantt
+    dateFormat  YYYY-MM
+    axisFormat  %Y-%m
+    todayMarker off
+    section Education
+    BSc AI :2021-09, 2024-06
+    BSc CS     :2023-09, 2024-06
+    section Work
+    CV Engineer @ Nuwa Pen      :2021-07, 2023-10
+    ML Intern @ Klippa     :2023-11, 2024-02
+    SWE @ Snap Spectacles     :2024-07, 2025-07
+```
+-->
