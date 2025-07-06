@@ -46,26 +46,21 @@ ninja.data = [{
           section: "News",},{id: "news-software-engineer-at-snapchat-spectacles",
           title: '😎 Software Engineer at Snapchat Spectacles',
           description: "",
-          section: "News",},{id: "projects-klippa",
-          title: 'Klippa',
-          description: "Fraud Detection on Identity Documents",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_klippa/";
-            },},{id: "projects-nuwa-pen",
-          title: 'Nuwa Pen',
-          description: "Ballpoint Pen That Digitzes Your Handwriting",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_nuwapen/";
-            },},{id: "projects-snapchat-spectacles",
-          title: 'Snapchat Spectacles',
-          description: "Standalone Augmented Reality Glasses",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_specs/";
-            },},{id: "projects-husaria",
+          section: "News",},{id: "projects-husaria",
           title: 'Husaria++',
           description: "Translation of C++ into Polish",
           section: "Projects",handler: () => {
               window.location.href = "/projects/husaria_plusplus/";
+            },},{id: "projects-klippa",
+          title: 'Klippa',
+          description: "Fraud Detection on Identity Documents",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/klippa/";
+            },},{id: "projects-nuwa-pen",
+          title: 'Nuwa Pen',
+          description: "Ballpoint Pen That Digitzes Your Handwriting",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nuwapen/";
             },},{id: "projects-predicting-double-pendulums",
           title: 'Predicting Double Pendulums',
           description: "Discovering Dynamics, Conservation Laws and Symmetries Underlying a Double Pendulum System",
@@ -91,6 +86,11 @@ ninja.data = [{
           description: "Karpathy&#39;s micrograd but in C++",
           section: "Projects",handler: () => {
               window.location.href = "/projects/shkyeragrad/";
+            },},{id: "projects-snapchat-spectacles",
+          title: 'Snapchat Spectacles',
+          description: "Standalone Augmented Reality Glasses",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/specs/";
             },},{id: "projects-travelling-salesman-problem",
           title: 'Travelling-Salesman-Problem',
           description: "Web App with a few, standard solvers of this legendary problem",
