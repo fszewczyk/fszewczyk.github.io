@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 nav: true
 nav_order: 3
-display_categories: [work, personal, machine learning]
+display_categories: [work, software, machine learning]
 horizontal: false
 ---
 

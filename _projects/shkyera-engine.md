@@ -5,6 +5,6 @@ description: Game Engine with custom ECS, Job System, Asset Management and UI Ed
 img: assets/img/shkyera-engine.png
 redirect: https://github.com/fszewczyk/shkyera-engine
 importance: 5
-category: personal
+category: software
 ---
 
