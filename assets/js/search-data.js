@@ -56,6 +56,11 @@ ninja.data = [{
           description: "Fraud Detection on Identity Documents",
           section: "Projects",handler: () => {
               window.location.href = "/projects/klippa/";
+            },},{id: "projects-lenet-5",
+          title: 'Lenet-5',
+          description: "MNIST Digit Detection based on the OG 1998 paper",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lenet5/";
             },},{id: "projects-nuwa-pen",
           title: 'Nuwa Pen',
           description: "Ballpoint Pen That Digitzes Your Handwriting",
