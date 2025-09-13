@@ -106,6 +106,11 @@ ninja.data = [{
           description: "Web App with a few, standard solvers of this legendary problem",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tsp_solver/";
+            },},{id: "projects-variational-auto-encoder-on-mnist",
+          title: 'Variational Auto-Encoder on MNIST',
+          description: "Generation and Reconstruction of MNIST digits using a simple VAE",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vae_mnist/";
             },},{id: "projects-video-driven-graph-network-based-simulators",
           title: 'Video-Driven Graph Network-Based Simulators',
           description: "Machine Learning and the Physical Sciences Workshop, NeurIPS 2024",
