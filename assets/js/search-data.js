@@ -46,7 +46,12 @@ ninja.data = [{
           section: "News",},{id: "news-software-engineer-at-snapchat-spectacles",
           title: '😎 Software Engineer at Snapchat Spectacles',
           description: "",
-          section: "News",},{id: "projects-husaria",
+          section: "News",},{id: "projects-alexnet-on-tiny-imagenet",
+          title: 'AlexNet on Tiny ImageNet',
+          description: "Classification on tiny-imagenet-200 using a minimized AlexNet",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/alexnet_tinyimagenet/";
+            },},{id: "projects-husaria",
           title: 'Husaria++',
           description: "Translation of C++ into Polish",
           section: "Projects",handler: () => {
