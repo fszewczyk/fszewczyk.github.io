@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p>😎 SWE @ Snapchat Spectacles</p>
     <p>Based in Vienna, Austria</p>
-    <p>Often in Poland and Italy</p>
 
 mermaid:
   enabled: true
